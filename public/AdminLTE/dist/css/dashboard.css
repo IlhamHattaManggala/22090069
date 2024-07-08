@@ -1,0 +1,36 @@
+.nav-link.sidebar-side.active {
+    background-color: rgba(0, 51, 255, 0.2);
+}
+
+body {
+    padding-top: 50px;
+}
+
+.nav-link.sidebar-side p,
+.nav-link.sidebar-side i {
+    color: white;
+}
+
+.nav-link.sidebar-side:hover {
+    background-color: rgba(0, 51, 255, 0.2);
+}
+
+.nav-link.sidebar-side:hover p,
+.nav-link.sidebar-side:hover i {
+    color: white;
+}
+
+.main-header .nav-link.sidebar-side.active,
+.main-header .nav-link.sidebar-side:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+#example1_wrapper .row.justify-content-between .col-md-auto.mr-auto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#example1_wrapper .row.justify-content-between .dt-paging{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
